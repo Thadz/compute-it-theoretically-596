@@ -10,8 +10,20 @@ week4_slides:
 week5_slides:
 	pandoc -t beamer week5_slides.md --variable fontsize=12pt -o week5_slides.pdf
 
+week6_slides:
+	pandoc -t beamer week6_slides.md --variable fontsize=12pt --listings -o week6_slides.pdf
+
+week7_slides:
+	pandoc -t beamer week7_slides.md --variable fontsize=12pt --listings -o week7_slides.pdf
+
+week8_slides:
+	pandoc -t beamer week8_slides.md --variable fontsize=12pt --listings -o week8_slides.pdf
+
+week9_slides:
+	pandoc -t beamer week9_slides.md --variable fontsize=12pt --listings -o week9_slides.pdf
+
 caller:
 	ghc call.hs -o call.out
 
 clean:
-	rm -rf *.hi *.o
+	rm -rf *.hi *.o *.log *.aux

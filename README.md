@@ -1,5 +1,4 @@
-compute-it-theoretically-596
-============================
+# compute-it-theoretically-596
 
 CIT 596 Recitation, Spring 2014
 
@@ -13,3 +12,7 @@ All *.pdf files are generated from coressponding *.md files by LaTeX and pandoc.
 LaTeX (TeX Live can be downloaded [here](https://www.tug.org/texlive/acquire-iso.html))
 
 pandoc (the universal document coverter, which can be downloaded [here](http://johnmacfarlane.net/pandoc/installing.html))
+
+## License
+
+Compute-it-theoretically-596 is released under the [MIT License](http://www.opensource.org/licenses/MIT).
